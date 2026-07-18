@@ -1,0 +1,63 @@
+# ---------------------------------------------------------------------------
+# .gitignore — J. Rafael Sendra · personal website
+# Evita subir ficheros del sistema, del editor, temporales o sensibles.
+# (El sitio en sí es HTML/CSS/imagen estáticos: eso SÍ se sube.)
+# ---------------------------------------------------------------------------
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Windows ---
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Linux ---
+*~
+.directory
+.Trash-*
+
+# --- Editores / IDEs ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+.*.swp
+*.tmp
+*.bak
+*.orig
+
+# --- Secretos / credenciales (por precaución; no debería haber ninguno) ---
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+.netrc
+secrets*
+*credential*
+*.secret
+
+# --- Registros / temporales / dependencias ---
+*.log
+.cache/
+tmp/
+node_modules/
+
+# --- Documentos fuente que no forman parte de la web publicada ---
+# (Descomenta si algún día dejas el PDF del CV o borradores en la carpeta)
+# *.pdf
+# borradores/
