@@ -57,6 +57,9 @@ secrets*
 tmp/
 node_modules/
 
+# --- Configuración local de herramientas (Claude Code, etc.) ---
+.claude/
+
 # --- Documentos fuente que no forman parte de la web publicada ---
 # (Descomenta si algún día dejas el PDF del CV o borradores en la carpeta)
 # *.pdf

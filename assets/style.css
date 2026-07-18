@@ -449,16 +449,56 @@ ol.pubs li .idx {
 }
 .site-footer .contact { color: var(--ink-soft); }
 
-/* ---------- Responsive ---------- */
+/* ---------- Responsive (mobile) ---------- */
 @media (max-width: 640px) {
   body { font-size: 17px; }
+
+  /* Header: compact and NOT sticky, so a wrapped 7-item menu can't cover the page */
+  .site-header { position: static; }
+  .nav {
+    min-height: 0;
+    padding: .2rem 1.1rem .6rem;
+    gap: .1rem 1rem;
+    align-items: center;
+  }
+  .brand {
+    width: 100%;
+    margin-right: 0;
+    padding: .6rem 0 .25rem;
+    font-size: 1.05rem;
+  }
+  .nav a.navlink {
+    padding: .3rem 0;
+    font-size: .72rem;
+    letter-spacing: .02em;
+    border-bottom-width: 2px;
+  }
+
+  /* Drop the "fit in one screen" centring on phones: let pages flow and scroll */
+  body.landing,
+  body.fit { min-height: 0; display: block; }
+  body.landing main,
+  body.fit main {
+    display: block;
+    padding-top: 1.4rem;
+    padding-bottom: 2.2rem;
+  }
+
+  /* Content spacing */
   .hero { padding: 1.6rem 1.3rem 1.8rem; }
-  .hero h1 { font-size: 2rem; }
-  main { padding: 2rem 1.2rem 3rem; }
+  body.landing .hero { padding: 1.5rem 1.3rem; }
+  .hero h1,
+  body.landing .hero h1 { font-size: 1.85rem; }
+  main { padding: 1.6rem 1.2rem 2.6rem; }
+  .facts.card,
+  body.fit .card { padding: 1rem 1.3rem; }
   .facts li { flex-direction: column; gap: .1rem; }
   .facts .k { min-width: 0; }
+  .areas { grid-template-columns: 1fr; }
   ol.pubs li { padding-left: 0; padding-top: 2.4rem; }
   ol.pubs li .idx { top: .8rem; }
+  .pub-title,
+  .pub-venue { overflow-wrap: break-word; }
 }
 
 /* ---------- Print ---------- */
