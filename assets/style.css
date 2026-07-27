@@ -346,6 +346,27 @@ a { color: var(--link); }
   display: block;
 }
 
+/* Stat boxes fade + slide in on load (staggered) — CSS only, no JS */
+@keyframes statIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.stats li {
+  opacity: 0;
+  animation: statIn .6s ease-out forwards;
+}
+.stats li:nth-child(1) { animation-delay: .05s; }
+.stats li:nth-child(2) { animation-delay: .15s; }
+.stats li:nth-child(3) { animation-delay: .25s; }
+.stats li:nth-child(4) { animation-delay: .35s; }
+.stats li:nth-child(5) { animation-delay: .45s; }
+.stats li:nth-child(6) { animation-delay: .55s; }
+
+/* Accessibility: no motion if the user prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .stats li { opacity: 1; animation: none; }
+}
+
 /* ---------- Publication lists ---------- */
 .pub-intro { color: var(--ink-soft); margin-bottom: 2rem; }
 
