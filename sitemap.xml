@@ -27,8 +27,13 @@
   </url>
   <url>
     <loc>https://jrsendrap.github.io/editions.html</loc>
-    <lastmod>2026-07-18</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jrsendrap.github.io/reports.html</loc>
+    <lastmod>2026-07-29</lastmod>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jrsendrap.github.io/editorial-board.html</loc>
