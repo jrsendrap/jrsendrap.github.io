@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-163 -195.7 326 277.9"
+     role="img" aria-labelledby="wu-title wu-desc">
+  <title id="wu-title">A Whitney umbrella turning about its singular line</title>
+  <desc id="wu-desc">The surface x squared equals y squared times z, drawn
+    through its straight-line rulings. The rulings cross in pairs along the
+    vertical axis, which is therefore a double line; it is pinched to a single
+    point at the origin, below which the surface degenerates to a bare
+    whisker. The figure turns slowly about that axis.</desc>
+  <style>
+    .r {
+      fill: none;
+      stroke: #2a6db0;
+      stroke-width: 1.15;
+      opacity: .42;
+      transform-box: fill-box;      /* pin the turn to the ruling's midpoint, */
+      transform-origin: center;     /* which is its point of the axis         */
+      scale: 1 -0.64279;
+      animation: wu-turn 18s linear infinite;
+    }
+    @keyframes wu-turn {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+
+    .double { fill: none; stroke: #c0442c; stroke-width: 2.8;
+              stroke-linecap: round; }
+    .handle { fill: none; stroke: #78838f; stroke-width: 1.8;
+              stroke-dasharray: 1 5.5; stroke-linecap: round; }
+    .pinch  { fill: #c0442c; }
+
+    @media (prefers-color-scheme: dark) {
+      .r      { stroke: #7fb4e6; opacity: .36; }
+      .double { stroke: #e8795f; }
+      .handle { stroke: #8592a0; }
+      .pinch  { fill: #e8795f; }
+    }
+
+    /* Accessibility: hold the umbrella still. */
+    @media (prefers-reduced-motion: reduce) {
+      .r { animation: none; }
+    }
+  </style>
+
+  <path class="r" style="translate:0 -84.5px" d="M105 -100L-105 100"/>
+  <path class="r" style="translate:0 -77.6px" d="M100.6 -100L-100.6 100"/>
+  <path class="r" style="translate:0 -71px" d="M96.2 -100L-96.2 100"/>
+  <path class="r" style="translate:0 -64.7px" d="M91.9 -100L-91.9 100"/>
+  <path class="r" style="translate:0 -58.7px" d="M87.5 -100L-87.5 100"/>
+  <path class="r" style="translate:0 -52.9px" d="M83.1 -100L-83.1 100"/>
+  <path class="r" style="translate:0 -47.5px" d="M78.8 -100L-78.8 100"/>
+  <path class="r" style="translate:0 -42.4px" d="M74.4 -100L-74.4 100"/>
+  <path class="r" style="translate:0 -37.5px" d="M70 -100L-70 100"/>
+  <path class="r" style="translate:0 -33px" d="M65.6 -100L-65.6 100"/>
+  <path class="r" style="translate:0 -28.7px" d="M61.3 -100L-61.3 100"/>
+  <path class="r" style="translate:0 -24.8px" d="M56.9 -100L-56.9 100"/>
+  <path class="r" style="translate:0 -21.1px" d="M52.5 -100L-52.5 100"/>
+  <path class="r" style="translate:0 -17.7px" d="M48.1 -100L-48.1 100"/>
+  <path class="r" style="translate:0 -14.7px" d="M43.8 -100L-43.8 100"/>
+  <path class="r" style="translate:0 -11.9px" d="M39.4 -100L-39.4 100"/>
+  <path class="r" style="translate:0 -9.4px" d="M35 -100L-35 100"/>
+  <path class="r" style="translate:0 -7.2px" d="M30.6 -100L-30.6 100"/>
+  <path class="r" style="translate:0 -5.3px" d="M26.2 -100L-26.2 100"/>
+  <path class="r" style="translate:0 -3.7px" d="M21.9 -100L-21.9 100"/>
+  <path class="r" style="translate:0 -2.3px" d="M17.5 -100L-17.5 100"/>
+  <path class="r" style="translate:0 -1.3px" d="M13.1 -100L-13.1 100"/>
+  <path class="r" style="translate:0 -0.6px" d="M8.8 -100L-8.8 100"/>
+  <path class="r" style="translate:0 -0.1px" d="M4.4 -100L-4.4 100"/>
+  <path class="r" style="translate:0 0px" d="M0 -100L0 100"/>
+  <path class="r" style="translate:0 -0.1px" d="M-4.4 -100L4.4 100"/>
+  <path class="r" style="translate:0 -0.6px" d="M-8.7 -100L8.7 100"/>
+  <path class="r" style="translate:0 -1.3px" d="M-13.1 -100L13.1 100"/>
+  <path class="r" style="translate:0 -2.3px" d="M-17.5 -100L17.5 100"/>
+  <path class="r" style="translate:0 -3.7px" d="M-21.9 -100L21.9 100"/>
+  <path class="r" style="translate:0 -5.3px" d="M-26.2 -100L26.2 100"/>
+  <path class="r" style="translate:0 -7.2px" d="M-30.6 -100L30.6 100"/>
+  <path class="r" style="translate:0 -9.4px" d="M-35 -100L35 100"/>
+  <path class="r" style="translate:0 -11.9px" d="M-39.4 -100L39.4 100"/>
+  <path class="r" style="translate:0 -14.7px" d="M-43.8 -100L43.8 100"/>
+  <path class="r" style="translate:0 -17.7px" d="M-48.1 -100L48.1 100"/>
+  <path class="r" style="translate:0 -21.1px" d="M-52.5 -100L52.5 100"/>
+  <path class="r" style="translate:0 -24.8px" d="M-56.9 -100L56.9 100"/>
+  <path class="r" style="translate:0 -28.7px" d="M-61.2 -100L61.2 100"/>
+  <path class="r" style="translate:0 -33px" d="M-65.6 -100L65.6 100"/>
+  <path class="r" style="translate:0 -37.5px" d="M-70 -100L70 100"/>
+  <path class="r" style="translate:0 -42.4px" d="M-74.4 -100L74.4 100"/>
+  <path class="r" style="translate:0 -47.5px" d="M-78.8 -100L78.8 100"/>
+  <path class="r" style="translate:0 -52.9px" d="M-83.1 -100L83.1 100"/>
+  <path class="r" style="translate:0 -58.7px" d="M-87.5 -100L87.5 100"/>
+  <path class="r" style="translate:0 -64.7px" d="M-91.9 -100L91.9 100"/>
+  <path class="r" style="translate:0 -71px" d="M-96.3 -100L96.3 100"/>
+  <path class="r" style="translate:0 -77.6px" d="M-100.6 -100L100.6 100"/>
+  <path class="r" style="translate:0 -84.5px" d="M-105 -100L105 100"/>
+
+  <path class="handle" d="M0 0V59.8"/>
+  <path class="double" d="M0 0V-84.5"/>
+  <circle class="pinch" cx="0" cy="0" r="3.4"/>
+</svg>
