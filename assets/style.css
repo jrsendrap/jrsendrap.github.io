@@ -435,11 +435,13 @@ a { color: var(--link); }
 .stats li:nth-child(3) { animation-delay: .25s; }
 .stats li:nth-child(4) { animation-delay: .35s; }
 .stats li:nth-child(5) { animation-delay: .45s; }
+.stats li:nth-child(6) { animation-delay: .55s; }
 .stats li:nth-child(1) .num { --to: 101; animation-delay: .05s; }
-.stats li:nth-child(2) .num { --to: 38;  animation-delay: .15s; }
+.stats li:nth-child(2) .num { --to: 36;  animation-delay: .15s; }
 .stats li:nth-child(3) .num { --to: 4;   animation-delay: .25s; }
 .stats li:nth-child(4) .num { --to: 5;   animation-delay: .35s; }
 .stats li:nth-child(5) .num { --to: 2;   animation-delay: .45s; }
+.stats li:nth-child(6) .num { --to: 2;   animation-delay: .55s; }
 
 /* Accessibility: no motion → show final numbers, static */
 @media (prefers-reduced-motion: reduce) {
