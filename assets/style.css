@@ -436,7 +436,7 @@ a { color: var(--link); }
 .stats li:nth-child(4) { animation-delay: .35s; }
 .stats li:nth-child(5) { animation-delay: .45s; }
 .stats li:nth-child(6) { animation-delay: .55s; }
-.stats li:nth-child(1) .num { --to: 101; animation-delay: .05s; }
+.stats li:nth-child(1) .num { --to: 102; animation-delay: .05s; }
 .stats li:nth-child(2) .num { --to: 36;  animation-delay: .15s; }
 .stats li:nth-child(3) .num { --to: 4;   animation-delay: .25s; }
 .stats li:nth-child(4) .num { --to: 5;   animation-delay: .35s; }
