@@ -50,4 +50,14 @@
     <lastmod>2026-07-18</lastmod>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://jrsendrap.github.io/research-projects.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jrsendrap.github.io/software.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <priority>0.5</priority>
+  </url>
 </urlset>

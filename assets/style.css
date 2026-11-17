@@ -137,11 +137,11 @@ body.fit .areas li { padding: .7rem 1rem; font-size: .9rem; }
 .nav {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: .4rem 1.5rem;
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: .4rem 1.5rem;
+  gap: 0 1.5rem;
   min-height: 62px;
 }
 .brand {
@@ -152,7 +152,7 @@ body.fit .areas li { padding: .7rem 1rem; font-size: .9rem; }
   color: var(--ink);
   text-decoration: none;
   margin-right: auto;
-  padding: .9rem 0;
+  padding: .5rem 0;
 }
 .brand span { color: var(--accent); }
 .nav a.navlink {
@@ -163,7 +163,7 @@ body.fit .areas li { padding: .7rem 1rem; font-size: .9rem; }
   text-transform: uppercase;
   color: var(--accent);
   text-decoration: none;
-  padding: .9rem 0;
+  padding: .5rem 0 .3rem;
   border-bottom: 2px solid transparent;
   transition: color .15s, border-color .15s;
 }
@@ -512,6 +512,8 @@ ol.pubs li .idx {
 .mine { font-weight: 700; color: var(--ink); font-style: normal; }
 
 /* ---------- Section jump menu ---------- */
+/* keep jump targets clear of the sticky (possibly two-row) header */
+main [id] { scroll-margin-top: 7.5rem; }
 .jump {
   font-family: var(--sans);
   font-size: .85rem;
@@ -558,6 +560,7 @@ ol.pubs li .idx {
 
   /* Header: compact and NOT sticky, so a wrapped 7-item menu can't cover the page */
   .site-header { position: static; }
+  main [id] { scroll-margin-top: 1rem; }
   .nav {
     min-height: 0;
     padding: .2rem 1.1rem .6rem;
